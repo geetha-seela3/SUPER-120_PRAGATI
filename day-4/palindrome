@@ -1,0 +1,9 @@
+def palindrome(left,nums,right):
+    if left>=right:
+        return "palindrome"
+    if nums[left]!=nums[right]:
+        return "not"
+    return palindrome(left+1,nums,right-1)
+nums=[1,2,4,1]
+r=palindrome(0,nums,len(nums)-1)
+print(r)
