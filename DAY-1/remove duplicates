@@ -1,0 +1,6 @@
+'''a=[1,12,3,1,12]
+res=[]
+for i in a:
+    if i not in res:
+        res.append(i)
+print(res)'''
