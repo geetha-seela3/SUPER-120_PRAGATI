@@ -1,0 +1,8 @@
+a=int(input("enter value:"))
+sum=0
+while a>9:
+    a=str(a);sum=0
+    for i in a:
+        sum+=int(i)
+    a=sum
+print(sum)
