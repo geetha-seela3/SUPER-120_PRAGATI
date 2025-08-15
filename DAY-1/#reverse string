@@ -1,0 +1,16 @@
+'''s="abcd"
+n=1
+for i in range(n%len(s)):
+    #s=s[-1]+s[:-1]
+    s=s[1:]+s[0]
+print(s)'''
+
+
+#without for loop
+----------------------------
+'''s="abcd"
+n=9
+n=n%len(s)
+#s=s[-n:]+s[:-n]
+s=s[len(s)//n:]+s[:len(s)//n]
+print(s)'''
