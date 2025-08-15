@@ -1,0 +1,6 @@
+'''def clear_bits(value,index):
+    mask=1<<(index)
+    mask=mask-1
+    res=value&mask
+    print(res)
+clear_bits(53,3)'''
