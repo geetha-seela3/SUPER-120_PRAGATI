@@ -1,0 +1,5 @@
+'''def set_bits(value,index):
+    mask= 1 << index
+    result= value | mask
+    print(result)
+set_bits(5,3)
