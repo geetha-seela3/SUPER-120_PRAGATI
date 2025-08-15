@@ -1,0 +1,8 @@
+‘’’def length(value):
+    count=0
+    print(bin(value))
+    while value!=0:
+        value=value>>1
+        count+=1
+    print(count)
+length(0)’’’
