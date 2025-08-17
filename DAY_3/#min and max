@@ -1,0 +1,11 @@
+
+'''def find_min_max(index,nums):
+    if index==len(nums)-1:
+        return nums[index],nums[index]
+    min,max=find_min_max(index+1,nums)
+    min_val=nums[index] if nums[index]<min else min
+    max_val=nums[index] if nums[index]>max else max
+    return min_val,max_val
+nums=[1,4,2,7,3]
+min,max=find_min_max(0,nums)
+print(min,max)'''
