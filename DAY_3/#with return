@@ -1,0 +1,7 @@
+
+'''def rec_1_n(index,n):
+    if index==n+1:
+        return
+    print(index,end=" ")
+    rec_1_n(index+1,n)
+rec_1_n(1,5)'''
