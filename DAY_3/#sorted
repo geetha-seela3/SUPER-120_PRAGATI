@@ -1,0 +1,11 @@
+
+'''def sorted(n,index):
+    for index in range(index,len(n)-1):
+        if n[index]>n[index+1]:
+            index+=1
+            return False
+       
+    return True
+n=[8,4,2]
+r=sorted(n,0)
+print(r)'''
