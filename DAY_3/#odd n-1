@@ -1,0 +1,8 @@
+
+''''def odd(n):
+    if n<0:
+        return
+    print(n,end=" ")
+    odd(n-2)
+n=15
+odd(n-1 if n%2==0 else n)'''
