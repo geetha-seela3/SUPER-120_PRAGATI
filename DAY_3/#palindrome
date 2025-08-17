@@ -1,0 +1,5 @@
+
+'''def palindrome(nums):
+    if(nums==nums[::-1]):
+        print("palindrome")
+palindrome([1,2,1])'''
