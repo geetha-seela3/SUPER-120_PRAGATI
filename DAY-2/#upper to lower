@@ -1,0 +1,10 @@
+
+--------------------------------------
+'''a="aBCdeF"
+res=""
+for i in a:
+    if ord(i)>96:
+        res+=chr(ord(i)-32)
+    else:
+        res+=chr(ord(i)+32)
+print(res)'''
