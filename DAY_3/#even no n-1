@@ -1,0 +1,7 @@
+
+'''def even(n):
+    if n==0:
+        return
+    print(n,end=" ")
+    even(n-2)
+even(20)'''
