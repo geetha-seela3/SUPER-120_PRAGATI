@@ -1,0 +1,7 @@
+
+'''def sum_list_slicing(nums):
+    if len(nums)==1:
+        return nums[0]
+    return nums[0]+sum_list_slicing(nums[1:])
+nums=[1,2,3]
+r=sum_list_slicing(nums)
